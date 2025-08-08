@@ -1,7 +1,6 @@
 import React from "react";
-import "./App.css";
-import HeroSection from "./components/HeroSection";
-import FeatureHighlights from "./components/FeatureHighlights";
+import Home from "./components/Home";
+import AboutUs from "./components/AboutUs";
 import Services from "./components/Services";
 import StatsIcons from "./components/StatsIcon";
 import WhyChooseUs from "./components/WhyChooseUs";
@@ -10,17 +9,19 @@ import Testimonials from "./components/Testimonials";
 import PromotionSection from "./components/PromotionSection";
 import FAQSection from "./components/FAQSection";
 import BlogAndFooter from "./components/BlogAndFooter";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <>
-      <HeroSection />
-      <FeatureHighlights />
+      {/* <Navbar /> */}
+      <Home />
+      <AboutUs />
       <StatsIcons />
       <WhyChooseUs />
       <Services />
       <HowItWorks />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <PromotionSection />
       <FAQSection />
       <BlogAndFooter />

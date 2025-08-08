@@ -3,7 +3,7 @@ import React from "react";
 
 const StatsIcons = () => {
   return (
-    <section className="bg-white py-12">
+    <section className="bg-[#15171f] py-12">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-5 md:grid-cols-6 gap-5 text-center ">
         <div>
           <h3 className="text-3xl font-bold text-blue-600">1,000+</h3>

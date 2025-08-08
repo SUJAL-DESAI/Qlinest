@@ -32,12 +32,12 @@ const FAQSection = () => {
   const [openIndex, setOpenIndex] = useState(0); 
 
   return (
-    <section className="bg-white py-16 px-6 md:px-20">
+    <section className="bg-[#15171f] py-16 px-6 md:px-20">
       <div className="max-w-4xl mx-auto flex flex-col items-center gap-4">
         <div className="inline-block bg-[#e6f1fb] text-[#2563EB] text-xs font-semibold px-4 py-1 rounded-full mb-1 shadow">
           FAQ
         </div>
-        <h2 className="text-3xl font-bold text-center">
+        <h2 className="text-3xl text-white font-bold text-center">
           Got Questions?
         </h2>
         <p className="text-gray-600 text-center">

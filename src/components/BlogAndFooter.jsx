@@ -34,12 +34,12 @@ const sidePosts = [
 
 const BlogSection = () => {
   return (
-    <section className="py-16 px-6 md:px-20 bg-white">
+    <section className="py-16 px-6 md:px-20 bg-[#15171f]">
       <div className="max-w-6xl mx-auto text-center mb-10">
         <div className="inline-block bg-[#e6f1fb] text-[#2563EB] text-xs font-semibold px-4 py-1 rounded-full mb-2 shadow">
           BLOG
         </div>
-        <h2 className="text-3xl sm:text-4xl font-bold">
+        <h2 className="text-3xl text-white sm:text-4xl font-bold">
           From Our Cleaning Experts
         </h2>
         <p className="text-gray-600 mt-1">
@@ -141,7 +141,7 @@ const NewsletterFooter = () => {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between gap-10">
           <div className="flex flex-col gap-4">
             <div className="text-2xl font-bold flex items-center gap-2">
-              <div className="w-6 h-6 bg-white rounded-full" />
+              <div className="w-6 h-6 bg-black rounded-full" />
               Qlinest
             </div>
             <div className="flex gap-6 text-sm">

@@ -85,14 +85,14 @@ const reasons = [
 
 const WhyChoose = () => {
   return (
-    <section classname="bg-white">
+    <section classname="bg-[#15171f]">
       <section className="bg-[#eaf3fc] rounded-2xl p-8 md:p-12 mx-4 md:mx-8 my-10">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12">
           {/* Left Text */}
           <div className="flex-1 flex flex-col justify-center">
-            <div className="inline-block bg-white/60 text-[#2563EB] text-xs font-semibold px-4 py-1 rounded-full mb-3 shadow">
-              WHY CHOOSE US
-            </div>
+             <div className="bg-white text-[#2e6ef7] text-sm font-semibold px-4 py-1 mb-5 rounded-full w-fit">
+             WHY CHOOSE US
+           </div>
             <h2 className="text-3xl sm:text-4xl font-bold leading-tight text-[#0f172a]">
               Why Qlinest Is The Right <br /> Choice For Quality
             </h2>

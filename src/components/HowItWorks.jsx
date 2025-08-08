@@ -112,11 +112,11 @@ const steps = [
 
 const HowItWorks = () => {
   return (
-    <section className="py-16 px-6 md:px-20 bg-white">
+    <section className="py-16 px-6 md:px-20 bg-[#15171f]">
         <div className="bg-[#e6f1fb] text-[#2e6ef7] text-sm font-semibold px-4 py-1 mb-5 rounded-full w-fit mx-auto">
             HOW IT WORKS
         </div>
-          <h2 className="text-3xl sm:text-4xl font-bold leading-tight text-[#0f172a] w-fit mx-auto">
+          <h2 className="text-3xl sm:text-4xl font-bold leading-tight text-white w-fit mx-auto">
             How We Can Help
           </h2>
           <p className="text-gray-600 mt-2 max-w-md w-fit mx-auto">
@@ -131,10 +131,10 @@ const HowItWorks = () => {
                 <div key={idx} className="flex items-start mb-8 relative">
                   <div className="flex flex-col items-center">
                     <div
-                      className={`w-1 h-full absolute left-0 ${
+                      className={`w-1 h-full absolute left-3 ${
                         step.active ? "bg-[#2563EB]" : ""
                       } rounded-full`}
-                      style={{ top: 0, bottom: 0 }}
+                      style={{ top: "32px", bottom: 0 }}
                     />
                     <div
                       className={`z-10 flex items-center justify-center rounded-full border-2 ${
@@ -167,7 +167,7 @@ const HowItWorks = () => {
         <div className="flex-1">
           <div className="rounded-xl overflow-hidden shadow-lg">
             <img
-              src="/images/cleaner-smiling.jpg" 
+              src="/cleaner-smiling.png" 
               alt="Cleaner helping"
               className="w-full h-auto object-cover"
             />

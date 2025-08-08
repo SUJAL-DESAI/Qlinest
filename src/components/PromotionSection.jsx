@@ -35,7 +35,7 @@ const PromotionCard = ({ title, subtitle, buttonText, image }) => {
         </div>
         {/* Image */}
         <div className="flex-shrink-0">
-          <div className="w-32 h-32 rounded-xl overflow-hidden bg-white shadow">
+          <div className="w-32 h-32 rounded-xl overflow-hidden bg-balck shadow">
             <img
               src={image}
               alt={title}
@@ -50,12 +50,12 @@ const PromotionCard = ({ title, subtitle, buttonText, image }) => {
 
 const PromotionSection = () => {
   return (
-    <section className="py-16 px-6 md:px-20 bg-white">
+    <section className="py-16 px-6 md:px-20 bg-[#15171f]">
       <div className="max-w-6xl mx-auto flex flex-col items-center gap-4">
         <div className="inline-block bg-[#e6f1fb] text-[#2563EB] text-xs font-semibold px-4 py-1 rounded-full mb-1 shadow">
           PROMOTION
         </div>
-        <h2 className="text-3xl sm:text-4xl font-bold text-center">
+        <h2 className="text-3xl text-white sm:text-4xl font-bold text-center">
           Get A Sparkling Clean Home <br /> At A Special Price!
         </h2>
         <p className="text-gray-600 text-center max-w-xl">
