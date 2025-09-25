@@ -14,14 +14,12 @@ import Navbar from "./components/Navbar";
 const App = () => {
   return (
     <>
-      {/* <Navbar /> */}
       <Home />
       <AboutUs />
       <StatsIcons />
       <WhyChooseUs />
       <Services />
       <HowItWorks />
-      {/* <Testimonials /> */}
       <PromotionSection />
       <FAQSection />
       <BlogAndFooter />
